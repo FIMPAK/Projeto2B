@@ -1,0 +1,72 @@
+
+
+
+*{
+    margin: none;
+    border: none;
+    padding: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+/* HEADER DA PÁGINA  */
+
+.header{
+    background-color: rgb(40, 115, 253);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .header-container-logo p{
+    font-size: 30px;
+    margin: 0 10px;
+    color: aliceblue;
+}
+
+
+.header-container-items{
+    display: flex;
+    align-items: center;
+}
+
+.header .header-container-items .links{
+    margin: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+/* INFORMAÇÕES INICIAIS  */
+
+
+.info-inicial{
+    height: 700px;
+    background-image: url(imagens/post.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-inicial .page-inicial-container{
+    height: 100%;
+}
+
+.info-inicial .page-inicial-container .conteudo .titulo h1{
+    font-size: 90px;
+    margin: 30px 0 0 20px;
+}
+
+.info-inicial .page-inicial-container .conteudo p{
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.info-inicial .page-inicial-container .conteudo .minitexto{
+    font-size: 20px;
+}
