@@ -1,29 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    .poppins-thin {
-        font-family: "Poppins", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-      }
-    
+      font-family: "Poppins", sans-serif;
+      background-color: rgb(130, 206, 206);
 }
-
+.tabela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 table {
-    width: 100%;
+    width: 799px;
     border-collapse: collapse;
     text-align: center;
+    
 }
 th, td {
-    border: 1px solid black;
+    border: 2px solid rgb(65, 129, 165);
     padding: 10px;
 }
 th {
-    background-color: #f2f2f2;
+    background-color:rgb(126, 221, 250);
 }
 td {
-    height: 100px; /* Ajuste a altura das células conforme necessário */
+    height: 60px; /* Ajuste a altura das células conforme necessário */
     vertical-align: top; /* Alinha o texto no topo da célula */
+    background-color: #f2f2f2;
 }
 .header {
     font-weight: bold;
@@ -31,4 +33,19 @@ td {
 h1{
     display: flex;
     justify-content: center;
+    color: #fff;
+}
+
+.con{
+    background-color: #ffffff;
+    height: 750px;
+    width: 1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-inline-start: 4%;
+    box-shadow: 10px -10px 5px black;;
+}
+p{
+    background-color: #ffffff;
 }
